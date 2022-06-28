@@ -1,8 +1,10 @@
 package com.vytrack.utilities.utility_driver;
 
 import com.vytrack.pages.LoginPage;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+import org.openqa.selenium.WebElement;
+
 
 import java.util.Set;
 
@@ -37,7 +39,7 @@ public class BrowserUtils {
 //        5. Assert:Title contains “Etsy”
         String actualTitle = driver.getTitle();
 
-        Assert.assertTrue(actualTitle.contains(expectedTitle),"Title verification failed!");
+        Assert.assertTrue("Title verification failed!",actualTitle.contains(expectedTitle));
     }
 
     public static void verifyTitle(WebDriver driver, String expectedTitle){
@@ -55,14 +57,22 @@ public class BrowserUtils {
     public static void verify_title_with_containMethods(String exp_contain, String exp_contain2) {
         String act_title = Driver.getDriver().getTitle();
         System.out.println( act_title );
-        org.junit.Assert.assertTrue( "Test FAIL, title is not verified", act_title.contains( exp_contain ) ||
+        Assert.assertTrue( "Test FAIL, title is not verified", act_title.contains( exp_contain ) ||
                 act_title.contains( exp_contain2 ) );
     }
 
     public static void verify_title_with_equalMethod(String exp_title) {
         String act_title = Driver.getDriver().getTitle();
-        org.junit.Assert.assertEquals( "Test FAIL, title is not verified", exp_title, act_title );
+        Assert.assertEquals( "Test FAIL, title is not verified", exp_title, act_title );
 
+    }
+    public static boolean isButtonOnLeft(WebElement secButton, String button1, String button2){
+        boolean check=false;
+        String xpath = "//a@title  = '"+button1+"'/..//preceding-sibling::a[@title='"+button2+"']";
+        if(secButton.isDisplayed()){
+            check=true;
+        }
+        return check;
     }
 }
 
