@@ -8,9 +8,9 @@ public class TC07 {
     @RunWith(Cucumber.class)
     @CucumberOptions(
             plugin = "html:target/cucumber-reports.html",
-            features = "src/test/resources/features/TruckDriverDashboard.feature",
+            features = "src/test/resources_VyTruck/features/TruckDriverDashboard.feature",
             glue = "com/vytrack/runner",
-            dryRun = true,
+            dryRun = false,
             tags = "@Smoke")
     public class ButtonRunner {
 

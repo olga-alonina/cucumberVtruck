@@ -1,8 +1,8 @@
 com\cydeo\utilities\Driver_TestBase\getWebDriver.class
+com\vytrack\utilities\utility_driver\Exel_Util.class
 com\cydeo\utilities\utility_driver\BrowserUtils.class
 com\vytrack\utilities\utility_driver\BrowserUtils.class
 com\cydeo\utilities\utility_driver\CRM_Utilities.class
-com\vytrack\pages\CarEntitlesPage.class
 com\vytrack\utilities\Driver_TestBase\WebDriverFactory.class
 com\cydeo\utilities\utility_driver\WebTableUtils.class
 com\cydeo\utilities\utility_driver\Driver.class
@@ -12,7 +12,9 @@ com\vytrack\utilities\Driver_TestBase\getWebDriver.class
 com\vytrack\pages\DashboardPage.class
 com\vytrack\step_defenitions\TruckDriverDashboard.class
 com\vytrack\utilities\utility_driver\WebTableUtils.class
+com\vytrack\step_defenitions\TruckDriver_Car_ESCES_page.class
 com\cydeo\runner\CukesRunner.class
+com\cydeo\step_defenitions\loginLibrary.class
 com\cydeo\utilities\utility_driver\verify_title.class
 com\vytrack\pages\Car_ESCES_page.class
 com\vytrack\runner\TC07$ButtonRunner.class
@@ -20,5 +22,6 @@ com\cydeo\utilities\utility_driver\LogIn.class
 com\vytrack\utilities\utility_driver\ConfigurationReader.class
 com\cydeo\utilities\utility_driver\ConfigurationReader.class
 com\cydeo\utilities\Driver_TestBase\WebDriverFactory.class
+com\cydeo\pages\Library.class
 com\vytrack\utilities\utility_driver\Driver.class
 com\cydeo\step_defenitions\wanna_sleep.class

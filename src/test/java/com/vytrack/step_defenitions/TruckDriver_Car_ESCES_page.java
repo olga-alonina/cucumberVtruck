@@ -10,18 +10,17 @@ public class TruckDriver_Car_ESCES_page {
     Car_ESCES_page carPage = new Car_ESCES_page();
 
     @Given("Truck driver on Car_ESCES_page")
-    public void truckDriverOnCar_ESCES_page() {
+    public void truck_Driver_On_Car_ESCES_page() {
     }
 
     @When("navigate to reset button")
-    public void navigateToResetButton() {
+    public void navigate_To_Reset_Button() {
 
     }
 
     @Then("Grid Settings should be on the right side of the Reset button")
-    public void gridSettingsShouldBeOnTheRightSideOfTheResetButton() {
-        Assert.assertTrue(
-                carPage.reset.getLocation().x < carPage.gridSettings.getLocation().x );
+    public void grid_Settings_Should_Be_On_The_Right_Side_Of_The_Reset_Button() {
+        Assert.assertTrue( carPage.reset.getLocation().x < carPage.gridSettings.getLocation().x );
 
     }
 }
