@@ -39,7 +39,7 @@ public class BrowserUtils {
             }
         }
 
-//        5. Assert:Title contains “Etsy”
+//        5. Assert:Title contains “Etsy_verification”
         String actualTitle = driver.getTitle();
 
         Assert.assertTrue("Title verification failed!",actualTitle.contains(expectedTitle));

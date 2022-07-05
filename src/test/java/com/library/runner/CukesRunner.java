@@ -10,8 +10,9 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-reports.html",
         features = "src/test/resources_cydeo/features/wanna_sleep.feature",//todo change it
         glue = "com/cydeo/runner",
-        dryRun = true,
-        tags = "@sleeping")
+        dryRun = false,
+        tags = "@librarian or @student"
+)
 public class CukesRunner {
 
 }
