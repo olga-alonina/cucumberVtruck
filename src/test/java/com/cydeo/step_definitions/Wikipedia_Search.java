@@ -5,8 +5,9 @@ import com.cydeo.utilities.utility_driver.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
+
 
 public class Wikipedia_Search {
     Wikipedia wikipedia = new Wikipedia();
@@ -14,8 +15,7 @@ public class Wikipedia_Search {
 
     @Given("User is on Wikipedia home page")
     public void user_is_on_wikipedia_home_page() {
-        Assert.assertEquals( Driver.getDriver().getTitle(),
-                "Wikipedia" );
+        Assert.assertEquals( "Wikipedia", Driver.getDriver().getTitle() );
     }
 
     @When("User types {string} in the wiki search box")

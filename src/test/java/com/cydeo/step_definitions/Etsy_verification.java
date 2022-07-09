@@ -19,7 +19,7 @@ public class Etsy_verification {
 
     @Then("User sees title is as expected.")
     public void user_sees_title_is_as_expected() {
-        String exp_title = "Etsy_verification - Shop for handmade, vintage, custom, and unique gifts for everyone";
+        String exp_title = "Etsy - Shop for handmade, vintage, custom, and unique gifts for everyone";
         Assert.assertEquals( exp_title, Driver.getDriver().getTitle() );
     }
 

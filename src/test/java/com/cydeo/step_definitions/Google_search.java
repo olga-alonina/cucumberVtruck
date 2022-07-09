@@ -6,8 +6,9 @@ import com.cydeo.utilities.utility_driver.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
-import org.testng.Assert;
+
 
 public class Google_search {
     Google google = new Google();

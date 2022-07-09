@@ -27,20 +27,20 @@ public class Driver {
 
             // We read browserType from configuration.properties with
             // help of ConfigurationReader class' getProperty() method
-            String browserType = ConfigurationReader.getProperty("browser");
+            String browserType = ConfigurationReader.getProperty( "browser" );
 
-            switch(browserType){
+            switch (browserType) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     driver.manage().window().maximize();
-                    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    driver.manage().timeouts().implicitlyWait( 10, TimeUnit.SECONDS );
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     driver.manage().window().maximize();
-                    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    driver.manage().timeouts().implicitlyWait( 10, TimeUnit.SECONDS );
                     break;
             }
 
@@ -50,11 +50,13 @@ public class Driver {
 
 
     }
-    public static void closeDriver(){
-        if(driver != null){
+
+    public static WebDriver closeDriver() {
+        if (driver != null) {
             driver.quit(); // this line will terminate the existing driver session. with using this driver will not be even null
             driver = null;
         }
 
+        return driver;
     }
 }
