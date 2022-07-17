@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="add, delete,fill out" time="51.443" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\wifec\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\wifec\cucumber-junit-project\target\test-classes;C:\Users\wifec\cucumber-junit-project\target\classes;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\wifec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\wifec\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\wifec\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wifec\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\wifec\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\wifec\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wifec\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wifec\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\wifec\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\wifec\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\wifec\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\wifec\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\wifec\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\wifec\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\wifec\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\wifec\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\wifec\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\wifec\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\wifec\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\wifec\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\wifec\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\wifec\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\wifec\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\wifec\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\wifec\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\wifec\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\wifec\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\wifec\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wifec\.m2\repository\me\jvt\cucumber\reporting-plugin\7.2.0\reporting-plugin-7.2.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\wifec\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\wifec\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\wifec\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\wifec\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\wifec\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\wifec\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\wifec\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\wifec\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\wifec\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\wifec\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\wifec\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\wifec\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\wifec\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\wifec\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\wifec\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\wifec\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\wifec\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\wifec\AppData\Local\Temp\surefire14283126838655486030\surefirebooter9755372424723331541.jar C:\Users\wifec\AppData\Local\Temp\surefire14283126838655486030 2022-07-13T02-01-56_910-jvmRun1 surefire14751486808786427922tmp surefire_016151226382539332810tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\wifec\cucumber-junit-project\target\test-classes;C:\Users\wifec\cucumber-junit-project\target\classes;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\wifec\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\wifec\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\wifec\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\wifec\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\wifec\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\wifec\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\wifec\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\wifec\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\wifec\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\wifec\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\wifec\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\wifec\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\wifec\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\wifec\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\wifec\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\wifec\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\wifec\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\wifec\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\wifec\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\wifec\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\wifec\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\wifec\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\wifec\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\wifec\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\wifec\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\wifec\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\wifec\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\wifec\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\wifec\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\wifec\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\wifec\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\wifec\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\wifec\.m2\repository\me\jvt\cucumber\reporting-plugin\7.2.0\reporting-plugin-7.2.0.jar;C:\Users\wifec\.m2\repository\io\cucumber\gherkin\22.0.0\gherkin-22.0.0.jar;C:\Users\wifec\.m2\repository\net\masterthought\cucumber-reporting\5.6.1\cucumber-reporting-5.6.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\wifec\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\wifec\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\wifec\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\wifec\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\wifec\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\wifec\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\wifec\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\wifec\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\wifec\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\wifec\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\wifec\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\wifec\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\wifec\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\wifec\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\wifec\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\wifec\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\wifec\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\wifec\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\wifec\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\wifec"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\wifec\cucumber-junit-project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\wifec\AppData\Local\Temp\surefire14283126838655486030\surefirebooter9755372424723331541.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="wifec"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\wifec\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\wifec\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\wifec\cucumber-junit-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Git\cmd;C:\Users\wifec\AppData\Local\Microsoft\WindowsApps;C:\Users\wifec\AppData\Local\gitkraken\bin;C:\Users\wifec\AppData\Local\JetBrains\Toolbox\scripts;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="add items" classname="add, delete,fill out" time="51.443">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}&#10;  (Session info: chrome=103.0.5060.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-A94U9T8&apos;, ip: &apos;192.168.1.128&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\wifec\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0b3471e95c8362182765af620769c91e&#10;*** Element info: {Using=id, value=name}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A94U9T8', ip: '192.168.1.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\wifec\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3471e95c8362182765af620769c91e
+*** Element info: {Using=id, value=name}
+]]></error>
+    <system-out><![CDATA[Jul 13, 2022 2:03:05 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File 'C:\Users\wifec\AppData\Local\Temp\cucumber7396648657195525161.json' contains 1 features
+
+null
+java.lang.RuntimeException: java.net.ConnectException: Connection refused: connect
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:34)
+	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
+	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:139)
+	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:118)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:250)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:362)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.pc.ParallelComputerBuilder$PC$1.run(ParallelComputerBuilder.java:590)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1974)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1969)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1968)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1536)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:125)
+	at io.cucumber.core.plugin.UrlOutputStream.sendRequest(UrlOutputStream.java:87)
+	at io.cucumber.core.plugin.UrlOutputStream.close(UrlOutputStream.java:65)
+	at java.base/sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:341)
+	at java.base/sun.nio.cs.StreamEncoder.close(StreamEncoder.java:161)
+	at java.base/java.io.OutputStreamWriter.close(OutputStreamWriter.java:255)
+	at io.cucumber.core.plugin.MessageFormatter.writeMessage(MessageFormatter.java:31)
+	... 41 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:287)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1232)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderFields(HttpURLConnection.java:3122)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderFields(HttpsURLConnectionImpl.java:279)
+	at io.cucumber.core.plugin.UrlOutputStream.getResponseBody(UrlOutputStream.java:124)
+	... 47 more
+
+
+@demoblaze
+Scenario: add items                                                           &amp#27;[90m# src/test/resources_cydeo/features/demoblaze.feature:5&amp#27;[0m
+before scenario running
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer is on homepage&amp#27;[0m                                               &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.customer_is_on_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Monitors"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple monitor 24"&amp#27;[0m                             &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.clickOnAnd(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Cart"&amp#27;[0m                                                        &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.click_on(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdelete &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apple monitor 24"&amp#27;[0m&amp#27;[32m from cart&amp#27;[0m                                     &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.delete_from_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on &amp#27;[0m&amp#27;[32m&amp#27;[1m"Place order"&amp#27;[0m                                                  &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.click_on(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mfill in all web form fields&amp#27;[0m                                             &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.fill_in_all_web_form_fields()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A94U9T8', ip: '192.168.1.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\wifec\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64752}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3471e95c8362182765af620769c91e
+*** Element info: {Using=id, value=name}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.sendKeys(Unknown Source)
+	at com.cydeo.pages.AdidasPage.fillForm(AdidasPage.java:94)
+	at com.cydeo.step_definitions.Demoblaze_steps.fill_in_all_web_form_fields(Demoblaze_steps.java:36)
+	at âœ½.fill in all web form fields(file:///C:/Users/wifec/cucumber-junit-project/src/test/resources_cydeo/features/demoblaze.feature:11)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on &amp#27;[0m&amp#27;[36m&amp#27;[1m"Purchase"&amp#27;[0m                                                     &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.click_on(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mcapture and log purchase Id and Amount&amp#27;[0m                                  &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.capture_and_log_purchase_id_and_amount()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36massert purchase amount equals expected&amp#27;[0m                                  &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.assert_purchase_amount_equals_expected()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on &amp#27;[0m&amp#27;[36m&amp#27;[1m"Ok"&amp#27;[0m                                                           &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.click_on(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on &amp#27;[0m&amp#27;[36m&amp#27;[1m"Cart"&amp#27;[0m                                                         &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.click_on(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mcustomer should be able to verify that there is no product in the cart&amp#27;[0m &amp#27;[90m# com.cydeo.step_definitions.Demoblaze_steps.customer_should_be_able_to_verify_that_there_is_no_product_in_the_cart()&amp#27;[0m
+After scenario running
+
+    Embedding add items [image/png 343947 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 29643
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 13, 2022 2:02:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Customer navigation through product categories: Phones, Laptops and Monitors
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 16.228 s <<< FAILURE! - in Customer navigation through product categories: Phones, Laptops and Monitors
+Customer navigation through product categories: Phones, Laptops and Monitors.Order  Time elapsed: 16.227 s  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: 
+no such alert
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A94U9T8', ip: '192.168.1.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\wifec\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7819ce1e4788b6378a89fa60d3cd6bee
+
+Customer navigation through product categories: Phones, Laptops and Monitors.Order  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Product added}
+  (Session info: chrome=103.0.5060.114): Product added
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A94U9T8', ip: '192.168.1.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\wifec\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7819ce1e4788b6378a89fa60d3cd6bee
+
